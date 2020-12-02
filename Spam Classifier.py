@@ -16,7 +16,6 @@ from sklearn.naive_bayes import MultinomialNB
 
 # LOADING DATA -->
 data = pd.read_csv('spam_kaggle.csv', encoding='ISO 8859-1') #ISO-8859-1 and Latin-1 are the same
-print(data.columns)
 
 
 #PREPROCESSING -->
